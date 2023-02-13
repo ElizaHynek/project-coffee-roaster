@@ -1,0 +1,21 @@
+.about {
+  height: 480px;
+  background-image: url(../images/about-us.jpg);
+  background-size: cover;
+  filter: brightness(30%);
+  padding-top: 10px;
+
+  .about-content {
+    color: $color-light;
+    font-style: italic;
+    font-size: 22px;
+    width: 500px;
+    margin: auto;
+    filter: none;
+  
+    p.join {
+      text-align: right;
+    }
+  }
+}
+

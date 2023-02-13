@@ -5,17 +5,6 @@
   box-sizing: border-box;
 }
 
-/*
-
-
-$font-main: 'Alkalami', serif;
-$font-header: 'Silkscreen', cursive;
-
-$background-one: #00ba92;
-$background-two: #edb0db;
-
-*/
-
 body {
   margin: 0;
   background-color: $color-light;
@@ -34,4 +23,31 @@ body {
 
 .page {
   padding: 5px;
+}
+
+.title {
+  margin-bottom: 80px;
+  text-align: center;
+  color: $color-middle;
+  font-size: 28px;
+  font-weight: $font-semibold;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+}
+
+.title:after {
+  position: absolute;
+  content: '';
+  bottom: -10px;
+  left: 50%;
+  width: 400px;
+  height: 4px;
+  transform: translateX(-50%);
+  background: $color-middle;
+}
+
+.footer {
+  font-size: 10px;
+  text-align: center;
+  margin: 15px 0;
 }
