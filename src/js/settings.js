@@ -4,13 +4,23 @@ export const select = {
   },
   containerOf: {
     productsWrapper: '#products-wrapper',
-  }
+    pages: '#pages',
+  },
+  nav: {
+    links: '.main-nav a',
+  },
 };
 
 export const classNames = {
   products: {
     wrapperActive: 'active',
   },
+  nav: {
+    active: 'active',
+  },
+  pages: {
+    active: 'active',
+  }
 };
 
 export const settings = {
