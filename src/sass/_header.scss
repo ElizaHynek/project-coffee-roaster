@@ -96,3 +96,53 @@
     font-size: 26px;
   }
 }
+
+// Media query
+
+@media (min-width: 576px) and (max-width: 768px) {
+  .header {
+    height: 430px;
+  }
+
+  .welcome-text {
+    top: 23%;
+  
+    h1 {
+      font-size: 40px;
+      letter-spacing: 5px;
+      margin-left: -120px;
+    }
+  }
+
+  .discover {
+    top: 43%;
+  }
+}
+@media (max-width: 575px) {
+  .header {
+    height: 400px;
+  }
+
+  .welcome-text {
+    top: 23%;
+    
+    h1 {
+      font-size: 30px;
+      letter-spacing: 3px;
+      margin-left: -120px;
+    }
+  }
+
+  .discover {
+    top: 38%;
+  }
+}
+@media (min-width: 769px) and (max-width: 1200px) {
+  .welcome-text {
+    h1 {
+      font-size: 60px;
+      letter-spacing: 7px;
+      margin-left: -100px;
+    }
+  }
+}

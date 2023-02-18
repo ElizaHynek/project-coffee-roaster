@@ -48,7 +48,6 @@ const app = {
         link.getAttribute('href') == '#' + pageId
       );
     }
-    console.log(thisApp.pages);
   },
 
   initProduct: function(){

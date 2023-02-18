@@ -17,8 +17,13 @@ class Product {
     const generatedHTML = templates.products(thisProduct.data);
     thisProduct.element = utils.createDOMFromHTML(generatedHTML);
 
-    const productsWrapper = document.querySelector(select.containerOf.productsWrapper);
-    productsWrapper.appendChild(thisProduct.element);
+    const productsWrapper = document.querySelectorAll(select.containerOf.productsWrapper);
+    for (let products of productsWrapper) {
+      
+      products.appendChild(thisProduct.element);
+      
+    } 
+
   }
 }
 

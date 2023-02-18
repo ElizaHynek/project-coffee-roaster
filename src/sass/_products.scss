@@ -63,3 +63,29 @@
   box-sizing: border-box;
   box-shadow: black;
 }
+
+// Media query
+
+@media (min-width: 576px) and (max-width: 768px) {
+  .product-content {
+    height: 200px;
+
+    .product__name {
+      margin-top: 0;
+      margin-bottom: 0;
+      font-size: 25px;
+    }
+
+    .product__name:after {
+      top: 50px;
+    }
+
+    .product__description {
+      top: 35px;
+    }
+
+    .details {
+      top: 130px;
+    }
+  }
+}

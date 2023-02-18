@@ -3,7 +3,9 @@ export const select = {
     products: '#template-products',
   },
   containerOf: {
-    productsWrapper: '#products-wrapper',
+    productsWrapper: '.products-wrapper',
+    homeProductsWrapper: '.home-products-wrapper',
+    productsProductsWrapper: '.products-products-wrapper',
     pages: '#pages',
   },
   nav: {
