@@ -18,12 +18,11 @@ class Product {
     thisProduct.element = utils.createDOMFromHTML(generatedHTML);
 
     const productsWrapper = document.querySelectorAll(select.containerOf.productsWrapper);
+    
     for (let products of productsWrapper) {
-      
-      products.appendChild(thisProduct.element);
-      
-    } 
-
+      const clone = thisProduct.element.cloneNode(true);
+      products.appendChild(clone);
+    }
   }
 }
 
